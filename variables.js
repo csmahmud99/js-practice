@@ -22,5 +22,5 @@ var isSingle = false;
 // Example of Variables :: Variables with 'Undefined' Data Types
 var isGuilty;   // Variable is declared, but value is not defined yet
 var evenNumber; // Variable is declared, but value is not defined yet
-console.log("var isGuilty:", isGuilty);      // Output: undefined
+console.log("var isGuilty:", isGuilty);        // Output: undefined
 console.log("var evenNumber:", evenNumber);    // Output: undefined

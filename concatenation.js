@@ -34,3 +34,16 @@ console.log("New Total Price (In Numeric format)", newTotalPrice);
 
 /* ================================================================== */
 
+// Converting String-type Floating-point number into actual Floating-point number :: parseFloat
+var gpaEnglish = 3.14;
+var gpaMath = "4.16";
+
+var totalGPA = gpaEnglish + gpaMath;
+
+console.log("Total GPA (Concatenation):", totalGPA); // Output: Total GPA (Concatenation): 2.144.30 ===> Strange output
+
+var gpaMathToNumber = parseFloat(gpaMath);
+console.log("gpaMath in Numeric format:", gpaMathToNumber);
+
+var newTotalGPA = gpaMathToNumber + gpaEnglish;
+console.log("New Total Price (In Numeric format):", newTotalGPA); // Output: New Total Price (In Numeric format): 7.300000000000001

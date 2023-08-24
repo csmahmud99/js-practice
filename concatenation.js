@@ -25,7 +25,7 @@ console.log("Total Price (Concatenation):", totalPrice); // Output : 3110
 
 /* ================================================================== */
 
-// Converting String-type Integer number into actual Integer number :: parseInt
+// Converting String-type Integer number into actual Integer number :: parseInt()
 var priceOneToNumber = parseInt(priceOne);
 console.log("priceOne in Numeric format:", priceOneToNumber);
 
@@ -34,7 +34,7 @@ console.log("New Total Price (In Numeric format)", newTotalPrice);
 
 /* ================================================================== */
 
-// Converting String-type Floating-point number into actual Floating-point number :: parseFloat
+// Converting String-type Floating-point number into actual Floating-point number :: parseFloat()
 var gpaEnglish = 3.14;
 var gpaMath = "4.16";
 

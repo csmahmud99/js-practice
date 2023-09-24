@@ -20,7 +20,7 @@ console.log("The length of the array 'vowels' is:", vowels.length);
 
 
 
-
+/* 
 // Finding an element of an array by it's 'Index (Position) Number'
 // Note: Index number of any array is begun with Zero (0).
 
@@ -40,4 +40,16 @@ console.log("Element of index number 3 (Fourth Element) of the array 'numbers' i
 var fifthItem = numbers[4];
 console.log("Element of index number 4 (Fifth Element) of the array 'numbers' is:", fifthItem);
 
-// Output || Element of index number 4 (Fifth Element) of the array 'numbers' is: 89 
+// Output || Element of index number 4 (Fifth Element) of the array 'numbers' is: 89  
+*/
+
+
+
+
+// In JavaScript, If we want to find an element from an array which element does not exist in that array, what will happen? ==> It will result 'undefined' in the output
+
+var numbers = [45, 68, 78, 56, 89, 98]; // Index number from '0' to '5'
+var getItem = numbers[7];
+console.log("Element of index number 7 (Eighth Element) of the array 'numbers' is:", getItem);
+
+// Output || Element of index number 7 (Eighth Element) of the array 'numbers' is: undefined 

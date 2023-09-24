@@ -75,6 +75,7 @@ console.log("The array 'numbers', after setting new values in the position numbe
 
 
 
+/* 
 // Suppose, we have two different arrays. We can re-assign the value of the elements of the first array (oldNumbers) by the value of the elements of the second array (newNumbers). We have to use the Index Number in this case.
 
 var oldNumbers = [45, 68, 78, 56, 89, 98];
@@ -90,4 +91,32 @@ oldNumbers[2] = newNumbers[1];
 // Now the second element of the second array (newNumbers) is the third element of the first array (oldNumbers)
 console.log("After re-assigning, the first array (oldNumbers) now:", oldNumbers);
 
-// Output || After re-assigning, the first array (oldNumbers) now: [ 45, 68, 8, 56, 89, 98 ]
+// Output || After re-assigning, the first array (oldNumbers) now: [ 45, 68, 8, 56, 89, 98 ] 
+*/
+
+
+
+// Using Index Number, we can add a new element of an array in any position (not only in the first or in the last).
+
+var numbers = [2, 4, 6, 8];
+console.log("The array 'numbers', before adding a new element:", numbers);
+
+// Output || The array 'numbers', before adding a new element: [ 2, 4, 6, 8 ]
+
+numbers[4] = 10; // This is almost as like as setting up a new value to a variable
+console.log("The array 'numbers', after adding a new element in the position 4 (Fifth Element):", numbers);
+
+// Output || The array 'numbers', after adding a new element in the position 4 (Fifth Element): [ 2, 4, 6, 8, 10 ]
+
+// Exceptional case :: Empty Index Position
+numbers[7] = 20;
+console.log("The array 'numbers', after adding a new element in the position 7 (Eighth Element):", numbers);
+
+// Output || The array 'numbers', after adding a new element in the position 7 (Eighth Element): [ 2, 4, 6, 8, 10, <2 empty items>, 20 ]
+
+// Will result 'undefined'
+console.log("Element of Index Number 5 (Sixth Element):", numbers[5]);
+// Output || Element of Index Number 5 (Sixth Element): undefined
+
+console.log("Element of Index Number 6 (Seventh Element):", numbers[6]);
+// Output || Element of Index Number 6 (Seventh Element): undefined

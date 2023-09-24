@@ -65,4 +65,26 @@
         - We can also add more than one new element to the first of an array using the 'Array unshift() Method'.
     - Array shift() Method <b>(arrayUnshiftShift.js)</b>
         - Removing an element from the first of an array using the 'Array shift() Method'.
-        - The 'Array shift() Method' returns us the removed element from the array, which we can use later anywhere by storing it inside a variable
+        - The 'Array shift() Method' returns us the removed element from the array, which we can use later anywhere by storing it inside a variable.
+
+- Comparison Operators and Conditionals
+    - Intro to the Comparison Operator in JavaScript
+        - Operator Name: Equal to
+        - Operator Name: Strict Equal to
+        - Operator Name: Not Equal to
+        - Operator Name: Strict Not Equal to
+        - Operator Name: Greater than
+        - Operator Name: Less than
+        - Operator Name: Greater than or Equal to
+        - Operator Name: Less than or Equal to
+    - We can do these by using variables with these || Comparing one variable with another one
+    - Multiple Conditions
+        - (moneyOne > moneyTwo) && (resultOne > resultTwo) && (heightOne > heightTwo)
+        - (moneyOne > moneyTwo) || (resultOne > resultTwo) || (heightOne > heightTwo)
+    - Single Condition with 'if-else' Conditional.
+    - Multiple Conditions
+        - More than One (Multiple) Conditions; Each Condition should Fulfilled
+        - More than One (Multiple) Conditions; At Least One of those Conditions should Fulfilled.
+    - Complex case :: In the case of multiple conditions, we should use the parentheses according to the need of the program and we have to use 'Logical AND' or 'Logical OR' in that case also.
+    - Multi-stage Conditions [if...else if...else if... ...else]
+    - Nested Conditions

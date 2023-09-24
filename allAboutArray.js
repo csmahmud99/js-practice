@@ -96,6 +96,7 @@ console.log("After re-assigning, the first array (oldNumbers) now:", oldNumbers)
 
 
 
+/* 
 // Using Index Number, we can add a new element of an array in any position (not only in the first or in the last).
 
 var numbers = [2, 4, 6, 8];
@@ -119,4 +120,21 @@ console.log("Element of Index Number 5 (Sixth Element):", numbers[5]);
 // Output || Element of Index Number 5 (Sixth Element): undefined
 
 console.log("Element of Index Number 6 (Seventh Element):", numbers[6]);
-// Output || Element of Index Number 6 (Seventh Element): undefined
+// Output || Element of Index Number 6 (Seventh Element): undefined 
+*/
+
+
+
+// Finding the Index (position) Number of an array in JavaScript by using 'indexOf()' method
+
+var numbers = [45, 68, 78, 56, 89, 98];
+var positionIndex = numbers.indexOf(89);
+console.log("Index (position) Number of the element '89' is:", positionIndex);
+
+// Output || Index (position) Number of the element '89' is: 4
+
+// It will result '-1', if the asking array element does not exist inside of an array
+var positionIndexNew = numbers.indexOf(188);
+console.log("Index (position) Number of the element '188' is:", positionIndexNew);
+
+// Output || Index (position) Number of the element '188' is: -1

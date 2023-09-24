@@ -58,6 +58,7 @@ console.log("Element of index number 7 (Eighth Element) of the array 'numbers' i
 
 
 
+/* 
 // Setting a new value of an element of an array by using Index Number
 
 var numbers = [45, 68, 78, 56, 89, 98];
@@ -68,4 +69,25 @@ console.log("The array 'numbers', before setting a new value:", numbers);
 numbers[1] = 77; 
 numbers[3] = 44; 
 console.log("The array 'numbers', after setting new values in the position number 1 (second element) and position number 3 (fourth element)", numbers);
-// Output || The array 'numbers', after setting new values in the position number 1 (second element) and position number 3 (fourth element) [ 45, 77, 78, 44, 89, 98 ]
+
+// Output || The array 'numbers', after setting new values in the position number 1 (second element) and position number 3 (fourth element) [ 45, 77, 78, 44, 89, 98 ] 
+*/
+
+
+
+// Suppose, we have two different arrays. We can re-assign the value of the elements of the first array (oldNumbers) by the value of the elements of the second array (newNumbers). We have to use the Index Number in this case.
+
+var oldNumbers = [45, 68, 78, 56, 89, 98];
+var newNumbers = [6, 8, 10, 12];
+
+console.log ("The firs array (oldNumbers), before re-assigning values:", oldNumbers);
+
+// Output || The firs array (oldNumbers), before re-assigning values: [ 45, 68, 78, 56, 89, 98 ] 
+
+// Re-assigning the value of some elements of the first array (oldNumbers) by using the value of the elements of the second array (newNumbers)
+oldNumbers[2] = newNumbers[1];
+
+// Now the second element of the second array (newNumbers) is the third element of the first array (oldNumbers)
+console.log("After re-assigning, the first array (oldNumbers) now:", oldNumbers);
+
+// Output || After re-assigning, the first array (oldNumbers) now: [ 45, 68, 8, 56, 89, 98 ]

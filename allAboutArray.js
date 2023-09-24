@@ -10,7 +10,7 @@ console.log("The output of the array 'vowels' is:", vowels);
 
 
 /* 
-// We can find the 'Length' of an array in JavaScript; it means, we can see in the output how much elements an array carry
+// We can find the 'Length' of an array in JavaScript; it means, we can see in the output how many elements an array carries
 
 var vowels = ["a", "e", "i", "o", "u"];
 console.log("The length of the array 'vowels' is:", vowels.length);
@@ -21,7 +21,7 @@ console.log("The length of the array 'vowels' is:", vowels.length);
 
 
 /* 
-// Finding an element of an array by it's 'Index (Position) Number'
+// Finding an element of an array by its 'Index (Position) Number'
 // Note: Index number of any array is begun with Zero (0).
 
 var numbers = [45, 68, 78, 56, 89, 98];
@@ -47,7 +47,7 @@ console.log("Element of index number 4 (Fifth Element) of the array 'numbers' is
 
 
 /* 
-// In JavaScript, If we want to find an element from an array which element does not exist in that array, what will happen? ==> It will result 'undefined' in the output
+// In JavaScript, If we want to find an element from an array whose element does not exist in that array, what will happen? ==> It will result in 'undefined' in the output
 
 var numbers = [45, 68, 78, 56, 89, 98]; // Index number from '0' to '5'
 var getItem = numbers[7];
@@ -97,7 +97,7 @@ console.log("After re-assigning, the first array (oldNumbers) now:", oldNumbers)
 
 
 /* 
-// Using Index Number, we can add a new element of an array in any position (not only in the first or in the last).
+// Using the Index Number, we can add a new element of an array in any position (not only in the first or in the last).
 
 var numbers = [2, 4, 6, 8];
 console.log("The array 'numbers', before adding a new element:", numbers);
@@ -115,7 +115,7 @@ console.log("The array 'numbers', after adding a new element in the position 7 (
 
 // Output || The array 'numbers', after adding a new element in the position 7 (Eighth Element): [ 2, 4, 6, 8, 10, <2 empty items>, 20 ]
 
-// Will result 'undefined'
+// Will result in 'undefined'
 console.log("Element of Index Number 5 (Sixth Element):", numbers[5]);
 // Output || Element of Index Number 5 (Sixth Element): undefined
 
@@ -125,7 +125,7 @@ console.log("Element of Index Number 6 (Seventh Element):", numbers[6]);
 
 
 
-// Finding the Index (position) Number of an array in JavaScript by using 'indexOf()' method
+// Finding the Index (position) Number of an array in JavaScript by using the 'indexOf()' method
 
 var numbers = [45, 68, 78, 56, 89, 98];
 var positionIndex = numbers.indexOf(89);
@@ -133,7 +133,7 @@ console.log("Index (position) Number of the element '89' is:", positionIndex);
 
 // Output || Index (position) Number of the element '89' is: 4
 
-// It will result '-1', if the asking array element does not exist inside of an array
+// It will result in '-1' if the asking array element does not exist inside of an array
 var positionIndexNew = numbers.indexOf(188);
 console.log("Index (position) Number of the element '188' is:", positionIndexNew);
 

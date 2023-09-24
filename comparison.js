@@ -4,7 +4,7 @@
 console.log(5 == 5)     // Operator Name: Equal to || Output: false
 console.log(6 === 6)    // Operator Name: Strict Equal to || Output: true
 console.log(5 != 6)     // Operator Name: Not Equal to || Output: true
-console.log(15 !== 15)  // Operator Name: Equal to || Output: false
+console.log(15 !== 15)  // Operator Name: Strict Not Equal to || Output: false
 console.log(5 > 6)      // Operator Name: Greater than || Output: false
 console.log(5 < 6)      // Operator Name: Less than || Output: true
 console.log(5 >= 6)     // Operator Name: Greater than or Equal to || Output: false
@@ -49,7 +49,7 @@ else {
 
 
 /* 
-// More than One (Multiple) Conditions; Each should Fulfilled
+// More than One (Multiple) Conditions; Each Condition should Fulfilled
 var isGraduated = true;
 var salary = 25000;
 
@@ -78,7 +78,8 @@ else {
 */
 
 
-// Complex case :: In the case of multiple conditions, we should use the parentheses according to the need of the program and we have to use 'Logical AND' or 'Logical OR' in that case also
+/* 
+// Complex case :: In the case of multiple conditions, we should use the parentheses according to the need of the program and we have to use 'Logical AND' or 'Logical OR' in that case also.
 var isGraduated = false;
 var salary = 61000;
 var cars = 0;
@@ -89,7 +90,8 @@ if ((isGraduated === true && salary > 50000) || cars >= 1) {
 else {
     console.log("No marriage");
 }
-// Output || No marriage
+// Output || No marriage 
+*/
 
 
 /* 

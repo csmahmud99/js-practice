@@ -46,10 +46,26 @@ console.log("Element of index number 4 (Fifth Element) of the array 'numbers' is
 
 
 
+/* 
 // In JavaScript, If we want to find an element from an array which element does not exist in that array, what will happen? ==> It will result 'undefined' in the output
 
 var numbers = [45, 68, 78, 56, 89, 98]; // Index number from '0' to '5'
 var getItem = numbers[7];
 console.log("Element of index number 7 (Eighth Element) of the array 'numbers' is:", getItem);
 
-// Output || Element of index number 7 (Eighth Element) of the array 'numbers' is: undefined 
+// Output || Element of index number 7 (Eighth Element) of the array 'numbers' is: undefined  
+*/
+
+
+
+// Setting a new value of an element of an array by using Index Number
+
+var numbers = [45, 68, 78, 56, 89, 98];
+console.log("The array 'numbers', before setting a new value:", numbers);
+
+// Output || The array 'numbers', before setting a new value: [ 45, 68, 78, 56, 89, 98 ]
+
+numbers[1] = 77; 
+numbers[3] = 44; 
+console.log("The array 'numbers', after setting new values in the position number 1 (second element) and position number 3 (fourth element)", numbers);
+// Output || The array 'numbers', after setting new values in the position number 1 (second element) and position number 3 (fourth element) [ 45, 77, 78, 44, 89, 98 ]

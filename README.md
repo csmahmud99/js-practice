@@ -39,7 +39,18 @@
     - Checking 'Undefined' Type Data Using 'typeof'
 
 - Using 'toFixed()', <b>(to-fixed.js)</b>
-    - Showing a large Floating-point number into a fixed length
+    - Showing a large Floating-point number in a fixed length
     - Making it from a Floating-point String to a Floating-point Number
 
 - Remainder (%) Operator <b>(remainder.js)</b>
+
+- Arrays in JavaScript <b>(allAboutArray.js)</b>
+    - How to see the output of an array in JavaScript.
+    - We can find the 'Length' of an array in JavaScript; it means, we can see in the output how many elements an array carries.
+    - Finding an element of an array by its 'Index (Position) Number'.
+    - In JavaScript, If we want to find an element from an array whose element does not exist in that array, what will happen? ==> It will result in 'undefined' in the output.
+    - Setting a new value of an element of an array by using Index Number.
+    - Suppose, we have two different arrays. We can re-assign the value of the elements of the first array (oldNumbers) by the value of the elements of the second array (newNumbers). We have to use the Index Number in this case.
+    - Using Index Number, we can add a new element of an array in any position (not only in the first or in the last).
+    - Exceptional case :: Empty Index Position :: Will result 'undefined'.
+    - Finding the Index (position) Number of an array in JavaScript by using 'indexOf()' method. It will result '-1', if the asking array element does not exist inside of an array.

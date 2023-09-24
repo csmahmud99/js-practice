@@ -68,7 +68,7 @@
         - The 'Array shift() Method' returns us the removed element from the array, which we can use later anywhere by storing it inside a variable.
 
 - Comparison Operators and Conditionals <b>(comparison.js)</b>
-  - Intro to the Comparison Operator in JavaScript
+ - Intro to the Comparison Operator in JavaScript
         - Operator Name: Equal to
         - Operator Name: Strict Equal to
         - Operator Name: Not Equal to

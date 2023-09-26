@@ -5,7 +5,7 @@
 // Conditionals :: Only for one time
 if (roastGiven < 7) {
     console.log("Please, Give me the Roast");
-}
+};
 
 // Output || Please, Give me the Roast 
 */
@@ -26,7 +26,7 @@ while (roastGiven < 7) {
 
     // Shorthand of the above both previous lines of codes
     roastGiven++;
-} 
+};
 */
 
 /* 
@@ -55,5 +55,5 @@ while (roastGiven < 7) {
     console.log(roastGiven);
     console.log("Please, give me the Roast");
     roastGiven++;
-}  
+};
 */

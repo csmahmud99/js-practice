@@ -88,3 +88,9 @@
     - Complex case :: In the case of multiple conditions, we should use the parentheses according to the need of the program and we have to use 'Logical AND' or 'Logical OR' in that case also.
     - Multi-stage Conditions [if...else if...else if... ...else]
     - Nested Conditions
+
+- Loops :: 'while' Loop <b>(whileLoopIntro.js)</b>
+    - Differences between 'if-else' conditional and 'while' loop.
+    - How to stop an infinite loop inside a 'while' loop through the loop variable changing (increment/decrement).
+    - Iteration of a loop.
+    - Rules of writing 'while' loop.

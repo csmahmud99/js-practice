@@ -93,4 +93,5 @@
     - Differences between 'if-else' conditional and 'while' loop.
     - How to stop an infinite loop inside a 'while' loop through the loop variable changing (increment/decrement).
     - Iteration of a loop.
+    - What will happen to the iteration number of a 'while' loop, if we write one line of output-displaying code before the line of the increment/decrement of the loop variable?
     - Rules of writing 'while' loop.

@@ -95,3 +95,7 @@
     - Iteration of a loop. <b>(whileLoopIntro.js)</b>
     - What will happen to the iteration number of a 'while' loop, if we write one line of output-displaying code before the line of the increment/decrement of the loop variable? <b>(whileLoopIntro.js)</b>
     - Rules of writing 'while' loop. <b>(whileLoopIntro.js)</b>
+    - Some Problem-solving using a 'while' loop.
+        - Numbers: Display/Print the numbers from 1 to 20 as output, using the 'while' loop.
+        - Even Numbers: Display/Print all the Even Numbers from 1 to 20 as output, using the 'while' loop.
+        - Odd Numbers: Display/Print all the Odd Numbers from 1 to 20 as output, using the 'while' loop.

@@ -1,4 +1,4 @@
-// Target :: Display all Even Numbers from 1 to 20 using 'while' Loop.
+// Target :: Display/Print all the Even Numbers from 1 to 20 as output, using 'while' loop.
 var number = 2;
 while (number <= 20) {
     console.log(number);

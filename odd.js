@@ -1,4 +1,4 @@
-// Target :: Display all Odd Numbers from 1 to 20 using 'while' Loop.
+// Target :: Display/Print all the Odd Numbers from 1 to 20 as output, using 'while' loop.
 var number = 1;
 while (number <= 20) {
     console.log(number);

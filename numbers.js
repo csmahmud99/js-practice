@@ -1,4 +1,4 @@
-// Target :: Display from 1 to 20 as output using 'while' Loop.
+// Target :: Display/Print the numbers from 1 to 20 as output, using 'while' loop.
 var number = 1;
 while (number <= 20) {
     console.log(number);

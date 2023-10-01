@@ -76,13 +76,14 @@ while (roastGiven < 7) {
 
 
 /* 
-// If we want to display/print the loop iteration number from '1 to 7', instead of the number from '0 to 6' without changing the condition, just write one line of code inside the loop body in one-step earlier to increase/decrease the value of the loop variable in the very beginning.
+// In respect with the above program, if we want to display/print the loop iteration number from '1 to 7', instead of the number from '0 to 6' without changing the condition, just write one line of code inside the loop body in one-step earlier, to increase/decrease the value of the loop variable in the very beginning.
 var roastGiven = 0;
 
 while (roastGiven < 7) {
     roastGiven++;
     console.log(roastGiven, "Give me a Roast, please.");
-} */
+} 
+*/
 
 /* 
 // Output [Loop iteration - 7 times (1 - 7)] ||
@@ -97,8 +98,10 @@ while (roastGiven < 7) {
 
 
 
-/* // Rules of writing 'while' loop:
+/* 
+// Rules of writing 'while' loop:
 1. Loop variable.
 2. Condition inside 'while'.
 3. Loop body.
-4. Change (increment/decrement) the loop variable. Never ignore this changing step (otherwise, the loop will become infinite). */
+4. Change (increment/decrement) the value of the loop variable. Never ignore this changing step (otherwise, the loop will become infinite). 
+*/

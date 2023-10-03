@@ -99,3 +99,11 @@
         - Numbers: Display/Print the numbers from 1 to 20 as output, using the 'while' loop. <b>(numbers.js)</b>
         - Even Numbers: Display/Print all the Even Numbers from 1 to 20 as output, using the 'while' loop. <b>(even.js)</b>
         - Odd Numbers: Display/Print all the Odd Numbers from 1 to 20 as output, using the 'while' loop. <b>(odd.js)</b>
+
+- Display Array with Loops.
+    - Display every element of an array, using the 'for' loop and the 'while' loop.
+    - Display every element of an array, using the 'for' loop and the 'while'loop [using the condition of unlimited array-length].
+    - Display every element of an array, using the 'for' loop and the 'while' loop [using the condition of unlimited array-length and string-elements of the array].
+
+- 'break' Statement with the 'for' Loop and the 'while' loop.
+-  

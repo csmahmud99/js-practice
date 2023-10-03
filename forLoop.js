@@ -45,11 +45,13 @@ Please, give me a Roast.
 // Simple Version of 'for' Loop
 for (var i = 0; i <= 7; i++) {
     console.log("Please, give me a Roast.");
-} 
+}  
 */
+
 
 /*
 // Output || 
+Please, give me a Roast.
 Please, give me a Roast.
 Please, give me a Roast.
 Please, give me a Roast.
@@ -62,7 +64,7 @@ Please, give me a Roast.
 
 
 /* 
-// Display all numbers from 0 to 20, using 'for' Loop.
+// Display all the numbers from 0 to 20 as output, using the 'for' Loop.
 for (i = 0; i <= 20; i++) {
     console.log(i);
 } 
@@ -96,7 +98,7 @@ for (i = 0; i <= 20; i++) {
 
 
 /* 
-// Display all Even Numbers from 0 to 20, using 'for' Loop.
+// Display all the Even Numbers from 0 to 20 as output, using the 'for' Loop.
 for (i = 0; i <= 20; i += 2) {
     console.log(i);
 } 
@@ -120,7 +122,7 @@ for (i = 0; i <= 20; i += 2) {
 
 
 /* 
-// Display all Odd Numbers from 1 to 20, using 'for' Loop.
+// Display all the Odd Numbers from 1 to 20 as output, using the 'for' Loop.
 for (i = 1; i <= 20; i += 2) {
     console.log(i);
 }  

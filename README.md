@@ -102,8 +102,9 @@
 
 - Display Array with Loops.
     - Display every element of an array, using the 'for' loop and the 'while' loop.
-    - Display every element of an array, using the 'for' loop and the 'while'loop [using the condition of unlimited array-length].
+    - Display every element of an array, using the 'for' loop and the 'while' loop [using the condition of unlimited array-length].
     - Display every element of an array, using the 'for' loop and the 'while' loop [using the condition of unlimited array-length and string-elements of the array].
 
 - 'break' Statement with the 'for' Loop and the 'while' loop.
--  
+- 'continue' Statement with the 'for' Loop and the 'while' loop.
+- 'while' Loop and 'for' Loop in a Reverse Way.

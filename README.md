@@ -100,11 +100,26 @@
         - Even Numbers: Display/Print all the Even Numbers from 1 to 20 as output, using the 'while' loop. <b>(even.js)</b>
         - Odd Numbers: Display/Print all the Odd Numbers from 1 to 20 as output, using the 'while' loop. <b>(odd.js)</b>
 
-- Display Array with Loops.
+- Display Array with Loops. <b>(arrayLoop.js)</b>
     - Display every element of an array, using the 'for' loop and the 'while' loop.
     - Display every element of an array, using the 'for' loop and the 'while' loop [using the condition of unlimited array-length].
     - Display every element of an array, using the 'for' loop and the 'while' loop [using the condition of unlimited array-length and string-elements of the array].
 
-- 'break' Statement with the 'for' Loop and the 'while' loop.
-- 'continue' Statement with the 'for' Loop and the 'while' loop.
-- 'while' Loop and 'for' Loop in a Reverse Way.
+- 'break' Statement with the 'for' Loop and the 'while' loop. <b>(break.js)</b>
+    - Display/Print the numbers from 1 to 20 as output, using the 'for' loop. Use the 'break' statement with this condition 'i > 10'.
+    - Doing the same task like the above one using 'break' statement with the 'while' loop.
+    - Display/Print all the elements of an array as output using the 'for' loop, 'break' statement with the 'for' loop and an array with 'string-type' elements.
+    - Display/Print all the elements of an array as output using the 'while' loop, 'break' statement with the 'while' loop and an array with 'string-type' elements.
+    - Display/Print all the elements of an array as output using the 'for' loop, 'break' statement with the 'for' loop and an array with 'numeric-type' elements.
+    - Display/Print all the elements of an array as output using the 'while' loop, 'break' statement with the 'while' loop and an array with 'numeric-type' elements.
+
+- 'continue' Statement with the 'for' Loop and the 'while' loop. <b>(continue.js)</b>
+    - Display/Print all the elements of an array as output using the 'for' loop, 'continue' statement with the 'for' loop and an array with 'numeric-type' elements.
+    - Display/Print all the elements of an array as output using the 'while' loop, 'continue' statement with the 'while' loop and an array with 'numeric-type' elements.
+
+- 'while' Loop in Reverse Way. <b>(reverse.js)</b>
+    - Display/Print all the numbers from 10 to 1 as output, using the 'while' loop.
+
+- 'for' Loop in Reverse Way. <b>(reverse.js)</b>
+    - Display/Print all the numbers from 10 to 1 as output, using the 'for' loop.
+

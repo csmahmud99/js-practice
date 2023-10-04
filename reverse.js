@@ -6,7 +6,7 @@ while (num <= 10) {
     console.log(num);
     num++;
 }  
-*/
+*/ 
 
 /* 
 // Output ||
@@ -32,7 +32,7 @@ while (num > 0) {
     console.log(num);
     num--;
 } 
-*/
+ */
 
 /* 
 // Output ||
@@ -52,9 +52,9 @@ while (num > 0) {
 
 /* 
 // Display all the numbers from 1 to 10 as output, using the 'for' loop.
-for (var i = 10; i <= 10; i++) {
+for (var i = 1; i <= 10; i++) {
     console.log(i);
-} 
+}
 */
 
 /* 

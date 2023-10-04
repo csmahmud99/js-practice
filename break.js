@@ -63,6 +63,22 @@ for (var i = 0; i < items.length; i++) {
 */
 
 /* 
+// The same above task, using the 'while' loop.
+var items = ["bottle", "mouse", "sunglass", "pen", "notebook"];
+
+var indexNum = 0;
+
+while (indexNum < items.length) {
+    var item = items[indexNum];
+    if (item == "pen") {
+        break;
+    }
+    console.log(item);
+    indexNum++;
+} 
+*/
+
+/* 
 // Output ||
 bottle
 mouse
@@ -71,7 +87,7 @@ sunglass
 
 
 
-/* 
+/*
 // Display/Print all the elements of an array as output using the 'for' loop, 'break' statement with the 'for' loop and an array with 'numeric-type' elements.
 var numbers = [45, 87, 89, 56, 32, 51, 25, 188, 41, 25, 98];
 
@@ -81,6 +97,22 @@ for (var i = 0; i < numbers.length; i++) {
         break;
     }
     console.log(number);
+}
+*/
+
+/* 
+// The same above task, using the 'while' loop.
+var numbers = [45, 87, 89, 56, 32, 51, 25, 188, 41, 25, 98];
+
+var indexNum = 0;
+
+while (indexNum < numbers.length) {
+    var number = numbers[indexNum];
+    if (number > 100) {
+        break;
+    }
+    console.log(number);
+    indexNum++;
 } 
 */
 

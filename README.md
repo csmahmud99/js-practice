@@ -29,6 +29,7 @@
     - Addition (Concatenation) of 2 Strings without any space between them
     - Addition (Concatenation) of 2 Strings with space between them
     - Addition of 2 Numbers, among them one is in the String format
+        - Only for the 'Addition Operation', the problem of 'Concat' will happen. For 'Subtraction/Multiplication/Division Operation', this problem of 'Concat' will not happen. 
         - Converting String-type Integer number into actual Integer number :: parseInt()
         - Converting String-type Floating-point number into actual Floating-point number :: parseFloat()
 
@@ -86,7 +87,9 @@
         - More than One (Multiple) Conditions; Each Condition should Fulfilled
         - More than One (Multiple) Conditions; At Least One of those Conditions should Fulfilled.
     - Complex case :: In the case of multiple conditions, we should use the parentheses according to the need of the program and we have to use 'Logical AND' or 'Logical OR' in that case also.
-    - Multi-stage Conditions [if...else if...else if... ...else]
+    - Multi-stage Conditions [if...else if...else if... ...else] <b>(else-if.js)</b>
+        - if...else if...else
+        - if...else if...else if... ...else 
     - Nested Conditions
 
 - Loops :: 'while' Loop

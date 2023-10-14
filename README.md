@@ -128,3 +128,5 @@
 - 'for' Loop in Reverse Way. <b>(reverse.js)</b>
     - Display/Print all the numbers from 10 to 1 as output, using the 'for' loop.
 
+- We can check any conditions using 'if/if-else' Conditionals within the 'for'/'while' loop. <b>(checkWithLoop.js)</b>
+

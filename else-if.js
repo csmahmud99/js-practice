@@ -1,4 +1,4 @@
-var person = "Mahmud";
+// var person = "Mahmud";
 
 /* 
 if (person == "Mahmud") {

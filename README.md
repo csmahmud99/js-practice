@@ -92,7 +92,7 @@
         - if...else if...else if... ...else 
     - Nested Conditions
 
-- Conditionals :: 'switch-case' Statement.
+- Conditionals :: 'switch-case' Statement. <b>(switchCase.js)</b>
 
 - Loops :: 'while' Loop
     - Differences between 'if-else' conditional and 'while' loop. <b>(whileLoopIntro.js)</b>

@@ -92,6 +92,8 @@
         - if...else if...else if... ...else 
     - Nested Conditions
 
+- Conditionals :: 'switch-case' Statement.
+
 - Loops :: 'while' Loop
     - Differences between 'if-else' conditional and 'while' loop. <b>(whileLoopIntro.js)</b>
     - How to stop an infinite loop inside a 'while' loop through the loop variable changing (increment/decrement). <b>(whileLoopIntro.js)</b>

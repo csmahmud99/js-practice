@@ -15,7 +15,6 @@ console.log(isThereName02);     // Output || false
 
 
 // Substring
-
 var text = "program";
 
 var getText = text.substring(3, 6);
@@ -23,3 +22,15 @@ console.log(getText); // Output || "gra"
 
 
 
+// Index (Position) Number System of String
+var myName = "Ariana Grande";
+
+// Getting value from a string by index number :: Possible
+var getValue = myName[3];
+console.log(getValue);  // Output || 'a'
+
+// Setting a new value by index number to a string :: Impossible
+myName[1] = "X";
+console.log(myName);    // Output || 'Ariana Grande'
+
+// Note:: Strings are Immutable

@@ -10,5 +10,16 @@ console.log(isThereName01);     // Output || true
 var isThereName02 = myName.includes("ariana");
 console.log(isThereName02);     // Output || false
 
-
 // Note:: String 'includes' Method - is Case-sensitive
+
+
+
+// Substring
+
+var text = "program";
+
+var getText = text.substring(3, 6);
+console.log(getText); // Output || "gra"
+
+
+

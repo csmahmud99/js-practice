@@ -32,6 +32,10 @@
         - Only for the 'Addition Operation', the problem of 'Concat' will happen. For 'Subtraction/Multiplication/Division Operation', this problem of 'Concat' will not happen. 
         - Converting String-type Integer number into actual Integer number :: parseInt()
         - Converting String-type Floating-point number into actual Floating-point number :: parseFloat()
+    - 2 Important String Operations.
+        - String 'includes()' Method.
+        - Substring
+        - Index (Position) Number System of String.  
 
 - Data Types of Variable <b>(data-types-typeof.js)</b>
     - Checking 'Numeric/Number' Type Data Using 'typeof'

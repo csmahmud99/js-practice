@@ -134,3 +134,6 @@
 
 - We can check any conditions using 'if/if-else' Conditionals within the 'for'/'while' loop. <b>(checkWithLoop.js)</b>
 
+- JavaScript Functions.
+  - 
+

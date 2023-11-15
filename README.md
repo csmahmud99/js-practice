@@ -135,5 +135,8 @@
 - We can check any conditions using 'if/if-else' Conditionals within the 'for'/'while' loop. <b>(checkWithLoop.js)</b>
 
 - JavaScript Functions.
-  - 
+    - Basic JavaScript Function :: Function Declaration and Function Calling/Invocation. <b>(functions.js)</b>
+    - JavaScript Function with Single Parameter. <b>(functions.js)</b>
+    - JavaScript Function with Multiple Parameters. <b>(functions.js)</b>
+    - JavaScript Function with Multiple Parameters :: Addition. <b>(functions.js)</b>
 

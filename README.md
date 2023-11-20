@@ -139,4 +139,8 @@
     - JavaScript Function with Single Parameter. <b>(functions.js)</b>
     - JavaScript Function with Multiple Parameters. <b>(functions.js)</b>
     - JavaScript Function with Multiple Parameters :: Addition. <b>(functions.js)</b>
+    - Introduction to JS Function Return. <b>(functionReturn.js)</b>
+    - Another example of Function Return in JS :: How much Singaras can be bought in how much money. <b>(functionReturn.js)</b>
+    - Simple Case - Re-using the returned data from a function :: Getting the average of exam marks. <b>(functionReturn.js)</b>
+    - Complex Case - Re-using the returned data from a function :: Addition of numbers. <b>(functionReturn.js)</b>
 

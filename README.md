@@ -144,3 +144,11 @@
     - Simple Case - Re-using the returned data from a function :: Getting the average of exam marks. <b>(functionReturn.js)</b>
     - Complex Case - Re-using the returned data from a function :: Addition of numbers. <b>(functionReturn.js)</b>
 
+- JavaScript Objects.
+    - Getting all Keys and Values of an Object through a Traditional 'for' Loop.
+    - Getting all Keys and Values of an Object through 'for...in' Loop.
+    - Setting a new value (equal amount) to each of the Key of an Object through Traditional 'for' Loop.
+    - Setting a new value (equal amount) to each of the Key of an Object through 'for...in' Loop.
+    - Setting a new value to a specific Key of an Object through Traditional 'for' Loop.
+    - Setting a new value to a specific Key of an Object through 'for...in' Loop.
+
